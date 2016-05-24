@@ -1,0 +1,51 @@
+*{
+    margin:0px; border:0px; padding:0px;
+
+}
+/* a{
+     text-decoration: none;
+     cursor: pointer;
+ }*/
+ li {
+     list-style: none;
+ }
+body, button, input, select, textarea {
+    color: #555;
+    font-size: 12px;
+}
+a:focus,a:active,textarea,input{outline:none;}
+.Header .HeaderTop .Bulletin{float: left;width:27%;height: 50px;line-height: 50px;}
+
+/*---Header�ڶ���----*/
+.Logo{ float:left; margin-top:3px}
+.Header{ width:100%; background-color:#eee;}
+.HeaderTop{ height:50px; background-color:#FFF}
+.Header .HeaderTop .Bulletin{float: left;width:27%;height: 50px;line-height: 50px;}
+.Logo{ float:left; margin-top:6px}
+.Header .HeaderTop ul{float: right; padding:0px; margin: 0;}
+.Header .HeaderTop ul li{margin: 0;padding:0;}
+.Header .HeaderTop ul li{float: left; font-size: 12px; margin-right:15px; line-height: 50px;}
+.Header .HeaderTop ul li a{color: #9b9b9b;text-decoration: none;}
+.Header .HeaderTop ul li a:hover{color: #333;text-decoration: underline;}
+
+.Header .HeaderTop ul li.ricond{background:url(../images/homg_rigicon4.gif) no-repeat left center; padding-left:18px }
+.Header .HeaderTop ul li.riconf{background:url(../images/homg_rigicon6.gif) no-repeat left center; padding-left:18px }
+
+.Header .HeaderTop ul li.ricona span{ color: #F00; font-weight: bold;}
+.Menu{ height:37px; width:100%; background-color:#3484b8;}
+.Menu ul{ margin: 0;padding:0;}
+.Menu ul li{ margin: 0 10px;padding:0;}
+.Menu ul li a {text-decoration: none;}
+.Menu ul li a:hover {text-decoration: underline;}
+.Menu>ul{ float:left; padding-left:15px;}
+.Menu>ul>li{ float:left; background:url("../images/logo/menuDnArrow.gif") no-repeat scroll right center; padding: 0 20px 0 5px;position: relative;z-index:8888;}
+.Menu>ul>li.Workbe{ background-position:57px center}
+.Menu>ul>li:hover{ background-color: #2c6d97;}
+.Menu>ul>li>a{ color:#FFF; font:14px/1.5 arial,Microsoft YaHei; line-height:37px;  float:left;}
+.Menu>ul>li.Home{ margin-top:9px; background-image:none; padding-right:0px; padding-left:0px; margin-right:5px}
+.Menu>ul>li.Home:hover{ background:none;}
+.Header .Menu ul li ul { margin:0px;padding:0px;float:left; width:150px; border:1px #ccc solid; border-top:none; background:#fff; position:absolute; left:0px; top:36px; z-index:9999; display:none;border-bottom: #bbbbbb solid 3px;}
+.Header .Menu ul li ul li { float:left; width:100%; border-bottom: 1px dotted #bbbbbb; margin: 0}
+.Header .Menu ul li ul li a { float:left; width:84%; padding:3px 8%; font-size:12px; color:#666; line-height:22px;}
+.Header .Menu ul li ul li a:hover { background:#e6e6e6;color:#3484b8;}
+.Header .Menu ul li:hover ul { display:block;}

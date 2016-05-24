@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN"   
+						"http://ibatis.apache.org/dtd/sql-map-2.dtd">
+
+<sqlMap>
+	<select id="queryById" parameterClass="com.vos.Employees" resultClass="com.vos.Employees">  
+	<![CDATA[
+		 select * from employees where loginName=#loginName# and password=#password#
+	]]>
+	</select>   	
+</sqlMap>
